@@ -1,0 +1,9 @@
+version: "3.3"
+
+services:
+  hello_container:
+    container_name: hello_contaier
+    build: .
+
+    volumes:
+      - ./data:/mnt/data
