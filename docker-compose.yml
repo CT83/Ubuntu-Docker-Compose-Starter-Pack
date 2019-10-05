@@ -7,3 +7,11 @@ services:
 
     volumes:
       - ./data:/mnt/data
+      - ./data2:/mnt/data2
+
+    environment:
+      SYS_NAME: good-container
+
+volumes: 
+  data :
+  data2 :
